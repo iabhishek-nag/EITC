@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		12BB5A732A5ED9540094CF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5A722A5ED9540094CF49 /* AppDelegate.swift */; };
 		12BB5A752A5ED9540094CF49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5A742A5ED9540094CF49 /* SceneDelegate.swift */; };
-		12BB5A772A5ED9540094CF49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5A762A5ED9540094CF49 /* ViewController.swift */; };
 		12BB5A7A2A5ED9540094CF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BB5A782A5ED9540094CF49 /* Main.storyboard */; };
 		12BB5A7C2A5ED9550094CF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BB5A7B2A5ED9550094CF49 /* Assets.xcassets */; };
 		12BB5A7F2A5ED9550094CF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BB5A7D2A5ED9550094CF49 /* LaunchScreen.storyboard */; };
+		12BB5A8F2A5EE2A00094CF49 /* IdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5A882A5EE2A00094CF49 /* IdentifierProtocol.swift */; };
+		12BB5A902A5EE2A00094CF49 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5A8A2A5EE2A00094CF49 /* UIView.swift */; };
+		12BB5A912A5EE2A00094CF49 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5A8B2A5EE2A00094CF49 /* String.swift */; };
+		12BB5A9A2A5EE48C0094CF49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5A992A5EE48C0094CF49 /* LoginViewController.swift */; };
+		12BB5A9C2A5EE4A10094CF49 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5A9B2A5EE4A10094CF49 /* LoginViewModel.swift */; };
+		12BB5A9F2A5EEC920094CF49 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5A9E2A5EEC910094CF49 /* MovieViewController.swift */; };
+		12BB5AA12A5EECA10094CF49 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5AA02A5EECA10094CF49 /* MovieViewModel.swift */; };
+		5D32A478983732C834C56CBF /* Pods_EITC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9F03CC9F8FCC2BDA2072CC /* Pods_EITC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12BB5A6F2A5ED9540094CF49 /* EITC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EITC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BB5A722A5ED9540094CF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12BB5A742A5ED9540094CF49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12BB5A762A5ED9540094CF49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12BB5A792A5ED9540094CF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12BB5A7B2A5ED9550094CF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12BB5A7E2A5ED9550094CF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12BB5A802A5ED9550094CF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12BB5A882A5EE2A00094CF49 /* IdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifierProtocol.swift; sourceTree = "<group>"; };
+		12BB5A8A2A5EE2A00094CF49 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		12BB5A8B2A5EE2A00094CF49 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		12BB5A992A5EE48C0094CF49 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		12BB5A9B2A5EE4A10094CF49 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		12BB5A9E2A5EEC910094CF49 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		12BB5AA02A5EECA10094CF49 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		2E9F03CC9F8FCC2BDA2072CC /* Pods_EITC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EITC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFFEAE137A09BDA513A623C /* Pods-EITC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EITC.release.xcconfig"; path = "Target Support Files/Pods-EITC/Pods-EITC.release.xcconfig"; sourceTree = "<group>"; };
+		767C1A9DCF3759E106D61419 /* Pods-EITC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EITC.debug.xcconfig"; path = "Target Support Files/Pods-EITC/Pods-EITC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D32A478983732C834C56CBF /* Pods_EITC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				12BB5A712A5ED9540094CF49 /* EITC */,
 				12BB5A702A5ED9540094CF49 /* Products */,
+				5FE8609352A2BE76E015AFA3 /* Pods */,
+				142D2E6E4FACAA52E04EB08C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,102 @@
 		12BB5A712A5ED9540094CF49 /* EITC */ = {
 			isa = PBXGroup;
 			children = (
-				12BB5A722A5ED9540094CF49 /* AppDelegate.swift */,
-				12BB5A742A5ED9540094CF49 /* SceneDelegate.swift */,
-				12BB5A762A5ED9540094CF49 /* ViewController.swift */,
+				12BB5A952A5EE2B00094CF49 /* Application */,
+				12BB5A862A5EE25F0094CF49 /* CoreModule */,
+				12BB5A962A5EE39A0094CF49 /* Resources */,
+				12BB5A972A5EE3AC0094CF49 /* Launch */,
+				12BB5A982A5EE4240094CF49 /* LoginView */,
+				12BB5A9D2A5EEC6D0094CF49 /* MovieView */,
 				12BB5A782A5ED9540094CF49 /* Main.storyboard */,
-				12BB5A7B2A5ED9550094CF49 /* Assets.xcassets */,
-				12BB5A7D2A5ED9550094CF49 /* LaunchScreen.storyboard */,
 				12BB5A802A5ED9550094CF49 /* Info.plist */,
 			);
 			path = EITC;
+			sourceTree = "<group>";
+		};
+		12BB5A862A5EE25F0094CF49 /* CoreModule */ = {
+			isa = PBXGroup;
+			children = (
+				12BB5A872A5EE2A00094CF49 /* Protocols */,
+				12BB5A892A5EE2A00094CF49 /* Extensions */,
+			);
+			path = CoreModule;
+			sourceTree = "<group>";
+		};
+		12BB5A872A5EE2A00094CF49 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				12BB5A882A5EE2A00094CF49 /* IdentifierProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		12BB5A892A5EE2A00094CF49 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12BB5A8A2A5EE2A00094CF49 /* UIView.swift */,
+				12BB5A8B2A5EE2A00094CF49 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12BB5A952A5EE2B00094CF49 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				12BB5A722A5ED9540094CF49 /* AppDelegate.swift */,
+				12BB5A742A5ED9540094CF49 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		12BB5A962A5EE39A0094CF49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12BB5A7B2A5ED9550094CF49 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12BB5A972A5EE3AC0094CF49 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				12BB5A7D2A5ED9550094CF49 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		12BB5A982A5EE4240094CF49 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				12BB5A992A5EE48C0094CF49 /* LoginViewController.swift */,
+				12BB5A9B2A5EE4A10094CF49 /* LoginViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		12BB5A9D2A5EEC6D0094CF49 /* MovieView */ = {
+			isa = PBXGroup;
+			children = (
+				12BB5A9E2A5EEC910094CF49 /* MovieViewController.swift */,
+				12BB5AA02A5EECA10094CF49 /* MovieViewModel.swift */,
+			);
+			path = MovieView;
+			sourceTree = "<group>";
+		};
+		142D2E6E4FACAA52E04EB08C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E9F03CC9F8FCC2BDA2072CC /* Pods_EITC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FE8609352A2BE76E015AFA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				767C1A9DCF3759E106D61419 /* Pods-EITC.debug.xcconfig */,
+				3AFFEAE137A09BDA513A623C /* Pods-EITC.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12BB5A832A5ED9550094CF49 /* Build configuration list for PBXNativeTarget "EITC" */;
 			buildPhases = (
+				79C60CE411693AB9F022B0DC /* [CP] Check Pods Manifest.lock */,
 				12BB5A6B2A5ED9540094CF49 /* Sources */,
 				12BB5A6C2A5ED9540094CF49 /* Frameworks */,
 				12BB5A6D2A5ED9540094CF49 /* Resources */,
+				5D0D9F0FDB62C90A301A8C48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +241,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D0D9F0FDB62C90A301A8C48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EITC/Pods-EITC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EITC/Pods-EITC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EITC/Pods-EITC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C60CE411693AB9F022B0DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EITC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12BB5A6B2A5ED9540094CF49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12BB5A772A5ED9540094CF49 /* ViewController.swift in Sources */,
+				12BB5A9A2A5EE48C0094CF49 /* LoginViewController.swift in Sources */,
+				12BB5A912A5EE2A00094CF49 /* String.swift in Sources */,
+				12BB5A902A5EE2A00094CF49 /* UIView.swift in Sources */,
+				12BB5A9F2A5EEC920094CF49 /* MovieViewController.swift in Sources */,
+				12BB5A8F2A5EE2A00094CF49 /* IdentifierProtocol.swift in Sources */,
+				12BB5AA12A5EECA10094CF49 /* MovieViewModel.swift in Sources */,
+				12BB5A9C2A5EE4A10094CF49 /* LoginViewModel.swift in Sources */,
 				12BB5A732A5ED9540094CF49 /* AppDelegate.swift in Sources */,
 				12BB5A752A5ED9540094CF49 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +438,7 @@
 		};
 		12BB5A842A5ED9550094CF49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767C1A9DCF3759E106D61419 /* Pods-EITC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +452,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +468,7 @@
 		};
 		12BB5A852A5ED9550094CF49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AFFEAE137A09BDA513A623C /* Pods-EITC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +482,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
