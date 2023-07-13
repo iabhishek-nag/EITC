@@ -15,15 +15,14 @@
 
 ## Prerequisites
 
-- Xcode 11.3 or later
+- Xcode 14.0 or later
 - iOS 12.4 or later
-- macOS 10.15 or later
 
 ## 1. Dependencies
 
 We will be building this app using Xcode 11.3 with Swift 5.x. This app will also consume the https://www.themoviedb.org API to get Movie list.
 
-- Xcode 11.3
+- Xcode 14.0
 - Swift 5.x
 
 ### Dependency Manager
@@ -81,6 +80,15 @@ In Swift, there are two very common implementations of this pattern: Extensions 
 ## To Do
 
 ### Unit Test cases
+- Test case for all ViewModel
+- Increse code coverage 
+
+### SwiftLint
+- Add Linting Rule
+
+### R.Swift
+- Add for Asset Handling
+- Localisation 
 
 ### CI/CD
 
@@ -98,7 +106,7 @@ In Swift, there are two very common implementations of this pattern: Extensions 
 
 Distributed under the MIT license. See `LICENSE` for more information.
 
-[LICENSE](https://github.com/laxmansahni/HealthApp/blob/master/LICENSE)
+[LICENSE](https://github.com/iabhishek-nag/EITC/blob/main/LICENSE)
 
 [swift-image]: https://img.shields.io/badge/swift-5.0-orange
 [swift-url]: https://swift.org/
