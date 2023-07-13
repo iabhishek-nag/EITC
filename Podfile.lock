@@ -1,16 +1,43 @@
 PODS:
+  - Alamofire (5.7.1)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
   - IQKeyboardManagerSwift (6.5.12)
+  - ProgressHUD (13.7.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
   - IQKeyboardManagerSwift
+  - ProgressHUD
+  - RxCocoa
+  - RxSwift
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - AlamofireImage
     - IQKeyboardManagerSwift
+    - ProgressHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
 
 SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  ProgressHUD: 093d24ca970f191744017bee2649e37d0cd1c5b9
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
 
-PODFILE CHECKSUM: 5f71fd6f3a1ae22c6a815a33a6911260e5b39db9
+PODFILE CHECKSUM: 0424b1a50f7584fadbf62f935c4f51e79fac6b35
 
 COCOAPODS: 1.12.1

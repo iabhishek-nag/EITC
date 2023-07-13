@@ -7,5 +7,10 @@ target 'EITC' do
 
   # Pods for EITC
   pod 'IQKeyboardManagerSwift'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'ProgressHUD'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
 
 end
