@@ -26,6 +26,17 @@ We will be building this app using Xcode 11.3 with Swift 5.x. This app will also
 - Xcode 11.3
 - Swift 5.x
 
+### Dependency Manager
+CocoaPods
+
+### Library Used
+- IQKeyboardManagerSwift
+- RxSwift
+- RxCocoa
+- ProgressHUD
+- Alamofire
+- AlamofireImage
+
 
 ## 2. Written in Swift
 
