@@ -1,12 +1,13 @@
 # Movie Listing
 
 [![Swift Version][swift-image]][swift-url]
-[![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-![minio_SWIFT1](https://github.com/laxmansahni/HealthApp/blob/master/screenshots.png)
+![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-13 at 17 15 50](https://github.com/iabhishek-nag/EITC/assets/106676582/0bf3ed8f-a67a-435d-bc2e-de56186455dc)
+![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-13 at 17 15 56](https://github.com/iabhishek-nag/EITC/assets/106676582/414cd3e4-8db4-4174-b01a-4cfa959bbaad)
+
 
 ## Version
 
