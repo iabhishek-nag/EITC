@@ -3,6 +3,19 @@ PODS:
   - AlamofireImage (4.2.0):
     - Alamofire (~> 5.4)
   - IQKeyboardManagerSwift (6.5.12)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
   - ProgressHUD (13.7.2)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
@@ -10,34 +23,45 @@ PODS:
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
+  - Sourcery (1.6.0)
+  - SwiftyMocky (4.1.0):
+    - Sourcery (= 1.6.0)
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireImage
   - IQKeyboardManagerSwift
+  - OHHTTPStubs/Swift
   - ProgressHUD
   - RxCocoa
   - RxSwift
+  - SwiftyMocky
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
     - IQKeyboardManagerSwift
+    - OHHTTPStubs
     - ProgressHUD
     - RxCocoa
     - RxRelay
     - RxSwift
+    - Sourcery
+    - SwiftyMocky
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
   ProgressHUD: 093d24ca970f191744017bee2649e37d0cd1c5b9
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  Sourcery: 744f43178637c79bf23127dfe34e2103b3f28499
+  SwiftyMocky: 014739247afadb65efb5bb92ede32c22b9365762
 
-PODFILE CHECKSUM: d7a1d2ff97ca92d907087dffbd1a4c2d69ee273d
+PODFILE CHECKSUM: 6b31acf81e90132f124e921441e1b9d3063fefca
 
 COCOAPODS: 1.12.1
