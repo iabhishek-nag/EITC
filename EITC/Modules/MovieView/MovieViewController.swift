@@ -14,7 +14,7 @@ class MovieViewController: UIViewController, IdentifierProtocol {
     // MARK: - Instance variables
     @IBOutlet weak private var movieCollectionView: UICollectionView!
 
-    var viewModel: MovieViewModel!
+    var viewModel: MovieViewModelProtocol!
     let disposeBag = DisposeBag()
 
     // MARK: - Lifecycle

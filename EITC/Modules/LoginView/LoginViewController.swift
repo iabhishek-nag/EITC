@@ -15,7 +15,7 @@ class LoginViewController: UIViewController, IdentifierProtocol {
     @IBOutlet weak private var passwordField: UITextField!
     @IBOutlet weak private var loginButton: UIButton!
 
-    var viewModel: LoginViewModel!
+    var viewModel: LoginViewModelProtocol!
     let disposeBag = DisposeBag()
 
     // MARK: - Lifecycle
@@ -24,7 +24,6 @@ class LoginViewController: UIViewController, IdentifierProtocol {
 
         navigationItem.title = "Login"
         navigationController?.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem()
-        viewModel = LoginViewModel()
         setupBindings()
     }
 

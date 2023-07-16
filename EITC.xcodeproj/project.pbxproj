@@ -76,6 +76,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B559CB2A64110C00025189 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				12BB5A7D2A5ED9550094CF49 /* LaunchScreen.storyboard */,
+				12BB5A782A5ED9540094CF49 /* Main.storyboard */,
+				12BB5A982A5EE4240094CF49 /* LoginView */,
+				12BB5A9D2A5EEC6D0094CF49 /* MovieView */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		12BB5A662A5ED9540094CF49 = {
 			isa = PBXGroup;
 			children = (
@@ -100,25 +111,22 @@
 				12BB5AAA2A5FBBF90094CF49 /* Managers */,
 				12BB5AA72A5FB97F0094CF49 /* Configuration */,
 				12BB5A952A5EE2B00094CF49 /* Application */,
-				12BB5A862A5EE25F0094CF49 /* CoreModule */,
 				12BB5A962A5EE39A0094CF49 /* Resources */,
-				12BB5A972A5EE3AC0094CF49 /* Launch */,
-				12BB5A982A5EE4240094CF49 /* LoginView */,
-				12BB5A9D2A5EEC6D0094CF49 /* MovieView */,
-				12BB5A782A5ED9540094CF49 /* Main.storyboard */,
+				12BB5A862A5EE25F0094CF49 /* Helpers */,
+				12BB5AA22A5F1F9E0094CF49 /* Models */,
+				12B559CB2A64110C00025189 /* Modules */,
 				12BB5A802A5ED9550094CF49 /* Info.plist */,
 			);
 			path = EITC;
 			sourceTree = "<group>";
 		};
-		12BB5A862A5EE25F0094CF49 /* CoreModule */ = {
+		12BB5A862A5EE25F0094CF49 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				12BB5AA22A5F1F9E0094CF49 /* Entities */,
 				12BB5A872A5EE2A00094CF49 /* Protocols */,
 				12BB5A892A5EE2A00094CF49 /* Extensions */,
 			);
-			path = CoreModule;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		12BB5A872A5EE2A00094CF49 /* Protocols */ = {
@@ -157,14 +165,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		12BB5A972A5EE3AC0094CF49 /* Launch */ = {
-			isa = PBXGroup;
-			children = (
-				12BB5A7D2A5ED9550094CF49 /* LaunchScreen.storyboard */,
-			);
-			path = Launch;
-			sourceTree = "<group>";
-		};
 		12BB5A982A5EE4240094CF49 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,14 +185,14 @@
 			path = MovieView;
 			sourceTree = "<group>";
 		};
-		12BB5AA22A5F1F9E0094CF49 /* Entities */ = {
+		12BB5AA22A5F1F9E0094CF49 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				12BB5AB22A5FBFE20094CF49 /* ErrorResponse.swift */,
 				12BB5AA32A5F1FC70094CF49 /* PopularMovie.swift */,
 				12BB5AA52A5F1FD10094CF49 /* Movie.swift */,
 			);
-			path = Entities;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		12BB5AA72A5FB97F0094CF49 /* Configuration */ = {

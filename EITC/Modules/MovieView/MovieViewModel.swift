@@ -9,7 +9,6 @@ import Foundation
 import RxSwift
 
 protocol MovieViewModelProtocol {
-    var apiServiceManager: APIServiceProtocol { get set }
     var movies: PublishSubject<[Movie]> { get set }
     var errorEvent: PublishSubject<ErrorResponse> { get set }
     var isLoaderActive: PublishSubject<Bool> { get set }
@@ -17,7 +16,7 @@ protocol MovieViewModelProtocol {
     func getPopularMovies()
 }
 
-struct MovieViewModel {
+struct MovieViewModel: MovieViewModelProtocol {
     // MARK: - Instance variables
     var apiServiceManager: APIServiceProtocol
     var movies = PublishSubject<[Movie]>()
