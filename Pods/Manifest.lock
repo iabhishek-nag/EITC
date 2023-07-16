@@ -17,12 +17,16 @@ PODS:
   - OHHTTPStubs/Swift (9.1.0):
     - OHHTTPStubs/Default
   - ProgressHUD (13.7.2)
+  - RxBlocking (6.5.0):
+    - RxSwift (= 6.5.0)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
+  - RxTest (6.5.0):
+    - RxSwift (= 6.5.0)
   - Sourcery (1.6.0)
   - SwiftyMocky (4.1.0):
     - Sourcery (= 1.6.0)
@@ -33,8 +37,10 @@ DEPENDENCIES:
   - IQKeyboardManagerSwift
   - OHHTTPStubs/Swift
   - ProgressHUD
+  - RxBlocking
   - RxCocoa
   - RxSwift
+  - RxTest
   - SwiftyMocky
 
 SPEC REPOS:
@@ -44,9 +50,11 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - OHHTTPStubs
     - ProgressHUD
+    - RxBlocking
     - RxCocoa
     - RxRelay
     - RxSwift
+    - RxTest
     - Sourcery
     - SwiftyMocky
 
@@ -56,12 +64,14 @@ SPEC CHECKSUMS:
   IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
   OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
   ProgressHUD: 093d24ca970f191744017bee2649e37d0cd1c5b9
+  RxBlocking: 04b5fd28bb5ea49f7d64b80db8bbfe50d9cc1c7d
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
   Sourcery: 744f43178637c79bf23127dfe34e2103b3f28499
   SwiftyMocky: 014739247afadb65efb5bb92ede32c22b9365762
 
-PODFILE CHECKSUM: 6b31acf81e90132f124e921441e1b9d3063fefca
+PODFILE CHECKSUM: d55875b9935717053bc44af55c8c182c541121e9
 
 COCOAPODS: 1.12.1

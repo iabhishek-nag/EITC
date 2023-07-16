@@ -25,6 +25,8 @@ target 'EITC' do
     inherit! :search_paths
     # Pods for testing
     pod 'OHHTTPStubs/Swift'
+    pod 'RxBlocking'
+    pod 'RxTest'
     pod 'SwiftyMocky'
   end
 

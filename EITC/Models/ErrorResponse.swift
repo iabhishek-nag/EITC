@@ -7,7 +7,7 @@
 
 import Foundation
 // MARK: - ErrorResponse
-struct ErrorResponse: Codable, Error {
+struct ErrorResponse: Codable, Error, Equatable {
     let statusCode: Int?
     let statusMessage: String
     let success: Bool
