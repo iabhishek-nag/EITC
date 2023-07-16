@@ -27,9 +27,15 @@ struct ErrorResponse: Codable, Error {
             success = false
         } else {
             statusMessage = error.localizedDescription
-            statusCode = 500
+            statusCode = nil
             success = false
         }
+    }
+
+    init(errorMessage: String) {
+        statusMessage = errorMessage
+        statusCode = nil
+        success = false
     }
 
 }
