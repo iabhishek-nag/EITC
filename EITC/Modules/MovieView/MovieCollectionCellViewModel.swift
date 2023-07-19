@@ -7,6 +7,7 @@
 
 import Foundation
 
+//sourcery: AutoMockable
 protocol MovieCollectionCellViewModelProtocol {
     var title: String { get }
     var posterPathURL: String { get }

@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 
+//sourcery: AutoMockable
 protocol MovieViewModelProtocol {
     var movies: PublishSubject<[Movie]> { get set }
     var errorEvent: PublishSubject<ErrorResponse> { get set }

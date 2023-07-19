@@ -9,13 +9,13 @@ import XCTest
 @testable import EITC
 
 final class LoginViewControllerTest: XCTestCase {
-    var loginViewModel: LoginViewModel!
+    var loginViewModel: LoginViewModelProtocol!
     var loginViewController: LoginViewController!
     var navigationController: UINavigationController!
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        loginViewModel = LoginViewModel()
+        loginViewModel = LoginViewModelProtocolMock()
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         guard let viewController = storyboard.instantiateViewController(withIdentifier: LoginViewController.identifier()) as? LoginViewController else {
             fatalError("Controller Not Found")

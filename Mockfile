@@ -1,0 +1,13 @@
+sourceryCommand: null
+sourceryTemplate: null
+EITCTests:
+  sources:
+    include:
+    - ./EITC
+  output: ./EITCTests/Mocks/Mock.generated.swift
+  targets:
+  - EITCTests
+  testable:
+  - EITC
+  import:
+  - Foundation

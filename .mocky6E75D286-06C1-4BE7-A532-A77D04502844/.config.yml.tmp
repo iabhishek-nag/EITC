@@ -1,0 +1,12 @@
+sources:
+  include:
+  - ../EITC
+templates:
+- /Users/abhisheksingh/Documents/EITC/.mocky6E75D286-06C1-4BE7-A532-A77D04502844/.template.swifttemplate
+output: /Users/abhisheksingh/Documents/EITC/.mocky6E75D286-06C1-4BE7-A532-A77D04502844/types.yaml
+args:
+  swiftyMocky:
+    import:
+    - Foundation
+    testable:
+    - EITC

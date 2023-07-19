@@ -9,6 +9,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
+//sourcery: AutoMockable
 protocol LoginViewModelProtocol {
     var emailSubject: BehaviorRelay<String?> { get set }
     var passwordSubject: BehaviorRelay<String?> { get set }

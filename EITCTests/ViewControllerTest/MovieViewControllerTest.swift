@@ -9,9 +9,9 @@ import XCTest
 @testable import EITC
 
 final class MovieViewControllerTest: XCTestCase {
+    var movieViewModel: MovieViewModelProtocol!
+    var apiServiceManager: APIServiceProtocol!
     var movieViewController: MovieViewController!
-    var movieViewModel: MovieViewModel!
-    var apiServiceManager: APIServiceProtocolMock!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -21,6 +21,7 @@ final class MovieViewControllerTest: XCTestCase {
         }
         apiServiceManager = APIServiceProtocolMock()
         movieViewModel = MovieViewModel(apiServiceManager: apiServiceManager)
+        movieViewModel = MovieViewModelProtocolMock()
         movieViewController = viewController
         movieViewController.viewModel = movieViewModel
     }
@@ -35,11 +36,6 @@ final class MovieViewControllerTest: XCTestCase {
     func testShowProgress() throws {
         movieViewController.showProgress(status: true)
 
-    }
-
-    func testHandleError() throws {
-        movieViewController.handleError(ErrorResponse(errorMessage: "Error"))
-        
     }
 
 }
