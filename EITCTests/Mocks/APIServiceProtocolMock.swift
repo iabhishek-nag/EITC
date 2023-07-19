@@ -28,5 +28,4 @@ class APIServiceProtocolMock: APIServiceProtocol {
     func getPopularMovies(language: String, page: Int, completion: @escaping (EITC.Callback<EITC.PopularMovie>)) {
         getResponse(completion: completion)
     }
-
 }

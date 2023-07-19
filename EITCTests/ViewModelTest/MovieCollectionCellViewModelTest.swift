@@ -9,23 +9,27 @@ import XCTest
 @testable import EITC
 
 final class MovieCollectionCellViewModelTest: XCTestCase {
-    var movieCollectionCellViewModel: MovieCollectionCellViewModel!
+    var viewModel: MovieCollectionCellViewModel!
     var movie = Movie(id: 1, title: "Abc", posterPath: "/123.jpg")
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        movieCollectionCellViewModel = MovieCollectionCellViewModel(item: movie)
+        viewModel = MovieCollectionCellViewModel(item: movie)
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        movieCollectionCellViewModel = nil
+        viewModel = nil
+    }
+
+    func testRequiredElementSetup() throws {
+        XCTAssertNotNil(viewModel)
     }
 
     func testProperties() throws {
-        XCTAssertEqual(movie.title, movieCollectionCellViewModel.title)
+        XCTAssertEqual(movie.title, viewModel.title)
         let imageURL = Configuration.shared.env.imageURL
-        XCTAssertEqual(imageURL + movie.posterPath, movieCollectionCellViewModel.posterPathURL)
+        XCTAssertEqual(imageURL + movie.posterPath, viewModel.posterPathURL)
     }
 
 }

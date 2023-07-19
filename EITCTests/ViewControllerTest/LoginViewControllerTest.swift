@@ -9,36 +9,40 @@ import XCTest
 @testable import EITC
 
 final class LoginViewControllerTest: XCTestCase {
-    var loginViewModel: LoginViewModelProtocol!
-    var loginViewController: LoginViewController!
+    var viewModel: LoginViewModelProtocol!
+    var viewController: LoginViewController!
     var navigationController: UINavigationController!
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        loginViewModel = LoginViewModelProtocolMock()
+        viewModel = LoginViewModelProtocolMock()
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        guard let viewController = storyboard.instantiateViewController(withIdentifier: LoginViewController.identifier()) as? LoginViewController else {
+        guard let viewC = storyboard.instantiateViewController(withIdentifier: LoginViewController.identifier()) as? LoginViewController else {
             fatalError("Controller Not Found")
         }
-        viewController.viewModel = LoginViewModel()
-        let navController = UINavigationController(rootViewController: viewController)
+        let navController = UINavigationController(rootViewController: viewC)
 
         navigationController = navController
-        loginViewController = viewController
-        loginViewController.viewModel = loginViewModel
+        viewController = viewC
+        viewController.viewModel = viewModel
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        loginViewModel = nil
-        loginViewController = nil
+        viewModel = nil
+        viewController = nil
+    }
+
+    func testRequiredElementSetup() throws {
+        XCTAssertNotNil(viewController)
+        XCTAssertNotNil(viewController.viewModel)
     }
 
     func testNavigateToMovies() throws {
         print(navigationController.viewControllers.count)
-        loginViewController.navigateToMovies()
+        viewController.navigateToMovies()
         print(navigationController.viewControllers.count)
-        let stackCount = loginViewController.navigationController?.viewControllers.count ?? 0
+        let stackCount = viewController.navigationController?.viewControllers.count ?? 0
         print(stackCount)
     }
 

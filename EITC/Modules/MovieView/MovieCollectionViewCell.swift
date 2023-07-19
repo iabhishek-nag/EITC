@@ -9,12 +9,12 @@ import UIKit
 
 class MovieCollectionViewCell: UICollectionViewCell, IdentifierProtocol {
     // MARK: - Instance variables
-    @IBOutlet weak private var titleLabel: UILabel!
-    @IBOutlet weak private var imageView: UIImageView!
-    var viewModel: MovieCollectionCellViewModel? = nil {
+    @IBOutlet weak private var titleLabel: UILabel?
+    @IBOutlet weak private var imageView: UIImageView?
+    var viewModel: MovieCollectionCellViewModelProtocol? = nil {
         didSet {
-            titleLabel.text = viewModel?.title
-            imageView.setImageWith(imageUrl: viewModel?.posterPathURL)
+            titleLabel?.text = viewModel?.title
+            imageView?.setImageWith(imageUrl: viewModel?.posterPathURL)
         }
     }
 }
