@@ -27,7 +27,6 @@ target 'EITC' do
     pod 'OHHTTPStubs/Swift'
     pod 'RxBlocking'
     pod 'RxTest'
-    pod 'SwiftyMocky'
   end
 
 end
