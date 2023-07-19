@@ -6,7 +6,6 @@
 //
 
 import XCTest
-import SwiftyMocky
 import RxSwift
 import RxCocoa
 import RxTest

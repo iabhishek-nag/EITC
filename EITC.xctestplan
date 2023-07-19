@@ -9,6 +9,15 @@
     }
   ],
   "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:EITC.xcodeproj",
+          "identifier" : "12BB5A6E2A5ED9540094CF49",
+          "name" : "EITC"
+        }
+      ]
+    },
     "targetForVariableExpansion" : {
       "containerPath" : "container:EITC.xcodeproj",
       "identifier" : "12BB5A6E2A5ED9540094CF49",
