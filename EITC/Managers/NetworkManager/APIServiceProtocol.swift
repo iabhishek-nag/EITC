@@ -6,6 +6,7 @@
 //
 
 import Foundation
+typealias CallbackVoid = () -> Void
 typealias Callback<T> = (Result<T, ErrorResponse>) -> Void
 
 protocol APIServiceProtocol {

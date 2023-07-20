@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "C2C7FDF5-CD3D-4760-A513-4C2DE80807CA",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:EITC.xcodeproj",
+          "identifier" : "12BB5A6E2A5ED9540094CF49",
+          "name" : "EITC"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:EITC.xcodeproj",
+      "identifier" : "12BB5A6E2A5ED9540094CF49",
+      "name" : "EITC"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EITC.xcodeproj",
+        "identifier" : "12B559DC2A641E0E00025189",
+        "name" : "EITCTests"
+      }
+    }
+  ],
+  "version" : 1
+}
