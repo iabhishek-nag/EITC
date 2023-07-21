@@ -14,10 +14,12 @@ protocol LoginViewModelProtocol {
     var emailSubject: BehaviorRelay<String?> { get set }
     var passwordSubject: BehaviorRelay<String?> { get set }
     var isValidForm: Observable<Bool> { get }
+    func goToMovies()
 }
 
 struct LoginViewModel: LoginViewModelProtocol {
     // MARK: - Instance variables
+    weak var coordinator : AppCoordinator!
     var emailSubject = BehaviorRelay<String?>(value: "")
     var passwordSubject = BehaviorRelay<String?>(value: "")
 
@@ -29,6 +31,10 @@ struct LoginViewModel: LoginViewModelProtocol {
             }
             return email.isValidEmail && password.isValidPassword
         }
+    }
+
+    func goToMovies() {
+        coordinator.goToMovies()
     }
 
 }

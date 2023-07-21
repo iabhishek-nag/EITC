@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class LoginViewController: UIViewController, IdentifierProtocol {
+class LoginViewController: UIViewController, Storyboarded, IdentifierProtocol {
     // MARK: - Instance variables
     @IBOutlet weak private var emailField: UITextField!
     @IBOutlet weak private var passwordField: UITextField!
@@ -45,12 +45,7 @@ class LoginViewController: UIViewController, IdentifierProtocol {
     }
 
     func navigateToMovies() {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        guard let viewController = storyboard.instantiateViewController(withIdentifier: MovieViewController.identifier()) as? MovieViewController else {
-            return
-        }
-        viewController.viewModel = MovieViewModel(apiServiceManager: APIServiceManager())
-        navigationController?.pushViewController(viewController, animated: true)
+        viewModel.goToMovies()
     }
 
 }

@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 import ProgressHUD
 
-class MovieViewController: UIViewController, IdentifierProtocol {
+class MovieViewController: UIViewController, Storyboarded, IdentifierProtocol {
     // MARK: - Instance variables
     @IBOutlet weak private var movieCollectionView: UICollectionView!
 

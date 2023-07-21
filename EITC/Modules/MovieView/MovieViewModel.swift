@@ -19,6 +19,7 @@ protocol MovieViewModelProtocol {
 
 struct MovieViewModel: MovieViewModelProtocol {
     // MARK: - Instance variables
+    weak var coordinator : AppCoordinator!
     var apiServiceManager: APIServiceProtocol
     var movies = PublishSubject<[Movie]>()
     var errorEvent = PublishSubject<ErrorResponse>()
