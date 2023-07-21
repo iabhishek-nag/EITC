@@ -47,7 +47,7 @@
 		12BB5AC12A5FE4CA0094CF49 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB5AC02A5FE4CA0094CF49 /* UIImageView.swift */; };
 		12BD42FC2A67EF6400CF6260 /* MovieCollectionViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD42FB2A67EF6400CF6260 /* MovieCollectionViewCellTest.swift */; };
 		12D88B412A6A7B5900C2D4F7 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D88B402A6A7B5900C2D4F7 /* Storyboarded.swift */; };
-		12DFD8682A67ED0400C43942 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DFD8672A67ED0400C43942 /* UIViewController.swift */; };
+		12D88B432A6A9E4B00C2D4F7 /* ActivityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D88B422A6A9E4B00C2D4F7 /* ActivityProtocol.swift */; };
 		2895401296C4CABE64F524FD /* Pods_EITCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E54EBDA00D5972F398DC210 /* Pods_EITCTests.framework */; };
 		5D32A478983732C834C56CBF /* Pods_EITC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9F03CC9F8FCC2BDA2072CC /* Pods_EITC.framework */; };
 /* End PBXBuildFile section */
@@ -106,7 +106,7 @@
 		12BB5AC02A5FE4CA0094CF49 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		12BD42FB2A67EF6400CF6260 /* MovieCollectionViewCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCellTest.swift; sourceTree = "<group>"; };
 		12D88B402A6A7B5900C2D4F7 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		12DFD8672A67ED0400C43942 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		12D88B422A6A9E4B00C2D4F7 /* ActivityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityProtocol.swift; sourceTree = "<group>"; };
 		2E9F03CC9F8FCC2BDA2072CC /* Pods_EITC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EITC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFFEAE137A09BDA513A623C /* Pods-EITC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EITC.release.xcconfig"; path = "Target Support Files/Pods-EITC/Pods-EITC.release.xcconfig"; sourceTree = "<group>"; };
 		5E54EBDA00D5972F398DC210 /* Pods_EITCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EITCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -264,8 +264,9 @@
 			isa = PBXGroup;
 			children = (
 				121437692A696156006DA7E5 /* Coordinator.swift */,
-				12BB5A882A5EE2A00094CF49 /* IdentifierProtocol.swift */,
 				12D88B402A6A7B5900C2D4F7 /* Storyboarded.swift */,
+				12BB5A882A5EE2A00094CF49 /* IdentifierProtocol.swift */,
+				12D88B422A6A9E4B00C2D4F7 /* ActivityProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -276,7 +277,6 @@
 				12BB5A8A2A5EE2A00094CF49 /* UIView.swift */,
 				12BB5A8B2A5EE2A00094CF49 /* String.swift */,
 				12BB5AC02A5FE4CA0094CF49 /* UIImageView.swift */,
-				12DFD8672A67ED0400C43942 /* UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -584,6 +584,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1214376C2A69618E006DA7E5 /* AppCoordinator.swift in Sources */,
+				12D88B432A6A9E4B00C2D4F7 /* ActivityProtocol.swift in Sources */,
 				12BB5A9A2A5EE48C0094CF49 /* LoginViewController.swift in Sources */,
 				12BB5A912A5EE2A00094CF49 /* String.swift in Sources */,
 				12BB5A902A5EE2A00094CF49 /* UIView.swift in Sources */,
@@ -599,7 +600,6 @@
 				12BB5A9C2A5EE4A10094CF49 /* LoginViewModel.swift in Sources */,
 				12D88B412A6A7B5900C2D4F7 /* Storyboarded.swift in Sources */,
 				12BB5AB12A5FBC370094CF49 /* APIServiceManager.swift in Sources */,
-				12DFD8682A67ED0400C43942 /* UIViewController.swift in Sources */,
 				12BB5AC12A5FE4CA0094CF49 /* UIImageView.swift in Sources */,
 				12BB5AAD2A5FBC140094CF49 /* APIService.swift in Sources */,
 				12BB5A732A5ED9540094CF49 /* AppDelegate.swift in Sources */,

@@ -14,4 +14,6 @@ struct LoginViewModelProtocolMock: LoginViewModelProtocol {
     var emailSubject: RxRelay.BehaviorRelay<String?> = BehaviorRelay(value: nil)
     var passwordSubject: RxRelay.BehaviorRelay<String?> = BehaviorRelay(value: nil)
     var isValidForm: RxSwift.Observable<Bool> = BehaviorRelay(value: true).asObservable()
+    func goToMovies() {
+    }
 }

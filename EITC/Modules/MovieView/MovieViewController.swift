@@ -34,7 +34,7 @@ class MovieViewController: UIViewController, Storyboarded, IdentifierProtocol {
     // MARK: User Actions
     func setupBindings() {
         viewModel.isLoaderActive.subscribe { [weak self] status in
-            self?.showProgress(status: status)
+            self?.activityBarLoading(status: status)
         }.disposed(by: disposeBag)
 
         viewModel.errorEvent.subscribe { [weak self] error in
@@ -53,20 +53,12 @@ class MovieViewController: UIViewController, Storyboarded, IdentifierProtocol {
     }
 
     // MARK: Helper Function
-    func showProgress(status: Bool) {
-        if status {
-            ProgressHUD.show()
-        } else {
-            ProgressHUD.dismiss()
-        }
+    func activityBarLoading(status: Bool) {
+        viewModel.activityBar(show: status)
     }
 
     func handleError(_ error: Error) {
-        var errorMessage = error.localizedDescription
-        if let errorResponse = error as? ErrorResponse {
-            errorMessage = errorResponse.statusMessage
-        }
-        presentAlert(title: "Error!", message: errorMessage)
+        viewModel.handleError(error)
     }
 }
 

@@ -38,7 +38,7 @@ final class MovieViewControllerTest: XCTestCase {
     }
 
     func testShowProgress() throws {
-        viewController.showProgress(status: true)
+        viewController.activityBarLoading(status: true)
     }
 
     func testHandleError() throws {

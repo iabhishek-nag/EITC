@@ -8,13 +8,14 @@
 import Foundation
 import RxSwift
 
-//sourcery: AutoMockable
 protocol MovieViewModelProtocol {
     var movies: PublishSubject<[Movie]> { get set }
     var errorEvent: PublishSubject<ErrorResponse> { get set }
     var isLoaderActive: PublishSubject<Bool> { get set }
 
     func getPopularMovies()
+    func activityBar(show: Bool)
+    func handleError(_ error: Error)
 }
 
 struct MovieViewModel: MovieViewModelProtocol {
@@ -41,6 +42,22 @@ struct MovieViewModel: MovieViewModelProtocol {
                 errorEvent.onNext(error)
             }
         }
+    }
+
+    func activityBar(show: Bool) {
+        if show {
+            coordinator.showActivityLoader()
+        } else {
+            coordinator.hideActivityLoader()
+        }
+    }
+
+    func handleError(_ error: Error) {
+        var errorMessage = error.localizedDescription
+        if let errorResponse = error as? ErrorResponse {
+            errorMessage = errorResponse.statusMessage
+        }
+        coordinator.showAlert(title: "Error!", message: errorMessage)
     }
 
 }

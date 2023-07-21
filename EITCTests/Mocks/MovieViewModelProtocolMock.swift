@@ -27,4 +27,10 @@ struct MovieViewModelProtocolMock: MovieViewModelProtocol {
         }
     }
 
+    func activityBar(show: Bool) {
+    }
+
+    func handleError(_ error: Error) {
+    }
+
 }
